@@ -1,0 +1,24 @@
+working-directory = home
+ 
+theme = Adwaita Dark
+
+#font-family = Cascadia Code NF
+font-family = JetBrains Mono
+font-family-bold = JetBrains Mono
+#font-family = JetBrainsMono Nerd Font
+#font-family = Hack
+#font-family = Hack Nerd Font
+#font-family = Iosevka
+#font-family = Iosevka Nerd Font
+font-size = 14
+
+window-padding-x = 6 
+window-padding-y = 6
+
+cursor-style = block
+
+confirm-close-surface = false
+
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+w=close_surface
+keybind = ctrl+shift+d=new_split:right

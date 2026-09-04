@@ -1,0 +1,25 @@
+# yazi.toml
+
+[mgr]
+show_hidden = true
+sort_by = "extension"
+sort_dir_first = true
+linemode = "none"
+
+[preview]
+wrap = "yes"
+tab_size = 2
+
+[input]
+cursor_blink = true
+
+[opener]
+open = [
+  { run = 'xdg-open %s', orphan = true }
+]
+
+[open]
+rules = [
+  { mime = "*", use = "open" }
+]
+

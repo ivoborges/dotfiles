@@ -1,0 +1,17 @@
+set recolor-lightcolor "#1e1e2e"
+set recolor-darkcolor "#cdd6f4"
+
+set statusbar-h-padding 8
+set statusbar-v-padding 2
+
+set window-title-basename true
+
+set adjust-open "best-fit"
+
+set pages-per-row 1
+set scroll-page-aware true
+set scroll-step 50
+
+set selection-clipboard clipboard
+
+map i recolor

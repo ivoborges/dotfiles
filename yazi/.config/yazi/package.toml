@@ -1,0 +1,39 @@
+[[plugin.deps]]
+use = "yazi-rs/flavors:everforest-medium"
+rev = "4770a34"
+hash = "99aa06d3014798d86001c324468d497f"
+
+[[flavor.deps]]
+use = "kmlupreti/ayu-dark"
+rev = "00804da"
+hash = "d2ce8358c59ea6e8552091075b3a191c"
+
+[[flavor.deps]]
+use = "Chromium-3-Oxide/everforest-medium"
+rev = "e1ead7b"
+hash = "f7dc46200e53da5e94858630184a9220"
+
+[[flavor.deps]]
+use = "gosxrgxx/flexoki-dark"
+rev = "25d28ce"
+hash = "8e6dd7e42a127173e4535993d3e0e393"
+
+[[flavor.deps]]
+use = "malick-tammal/monokai"
+rev = "57be034"
+hash = "9fbb5104646853a933446746b88118a6"
+
+[[flavor.deps]]
+use = "dangooddd/kanagawa"
+rev = "04985d1"
+hash = "c69a63981e254a3a06a11c2bf0e6af1d"
+
+[[flavor.deps]]
+use = "melindachang/kanagawa-paper"
+rev = "7f3cd1d"
+hash = "3f84eceb475a9d1c1ea911d93a1d1898"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-frappe"
+rev = "4770a34"
+hash = "1844f850b0c5d1af511c84399c95e3d7"
