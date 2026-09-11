@@ -1,6 +1,6 @@
 # dotfiles
 
-My personal Arch/Artix setup, configs, packages and scripts.
+My personal Arch/Artix dotfiles, packages and scripts.
 
 Managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
