@@ -1,5 +1,14 @@
 #!/bin/bash
 
-sudo pacman -Rns $(pacman -Qtdq) 2>/dev/null
+set -e
+
+orphans=$(pacman -Qtdq)
+
+if [[ -n "$orphans" ]]; then
+    sudo pacman -Rns $orphans
+else
+    echo "No orphaned packages found."
+fi
+
 sudo pacman -Sc
 
