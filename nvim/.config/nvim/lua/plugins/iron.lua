@@ -10,12 +10,16 @@ return {
 						r = {
 							command = { "R", "--quiet", "--no-save" },
 						},
+						python = {
+							command = { "python3" },
+						},
 					},
 
 					repl_open_cmd = require("iron.view").split.vertical.botright(80),
 				},
 
 				keymaps = {
+					toggle_repl = "<space>rr",
 					send_motion = "<space>sc",
 					visual_send = "<space>sc",
 					send_file = "<space>sf",
